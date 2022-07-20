@@ -1,8 +1,15 @@
 import React from 'react';
-// Bora la!
+import Header from './components/Header'; // importando o componente da 'Header.js' p/ usar
+import SolarSystem from './components/SolarSystem';
+
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar</p>);
+    return (
+      <main>
+        <Header />
+        <SolarSystem />
+      </main>
+    );
   }
 }
 
