@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header'; // importando o componente da 'Header.js' p/ usar
+import Missions from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 
 class App extends React.Component {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <main>
         <Header />
         <SolarSystem />
+        <Missions />
       </main>
     );
   }
