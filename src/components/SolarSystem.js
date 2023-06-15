@@ -6,9 +6,9 @@ import PlanetCart from './PlanetCard';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div data-testid="solar-system">
+      <div data-testid="solar-system" className='"solar-system'>
         <Title headline="Planetas" />
-        <div>
+        <section className="list-planets">
           { planets.map(({ name, image }) => (
             <PlanetCart
               key={ name }
@@ -16,7 +16,7 @@ class SolarSystem extends React.Component {
               planetImage={ image }
             />
           ))}
-        </div>
+        </section>
       </div>
     );
   }

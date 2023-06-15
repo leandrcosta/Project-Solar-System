@@ -1,3 +1,216 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+header {
+  font-size: 30pt;
+  text-align: center;
+}
+
+header h1 {
+  font-family: Arial , Helvetica , sans-serif;
+  font-weight: 500;
+}
+
+.solar-system {
+  text-align: right;
+}
+
+.title {
+  background-color: rgba(17, 17, 17, 0.616);
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 25pt;
+  font-weight: 400;
+  margin: 60px auto 20px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.list-planets {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.planet-card {
+  display: inline-block;
+}
+
+.planet-card img {
+  text-align: center;
+  width: 100%;
+}
+
+.mercurio {
+  width: 5%;
+}
+
+.venus {
+  margin-left: 25px;
+  width: 25%;
+}
+
+.terra {
+  margin-left: 10px;
+  width: 27%;
+}
+
+.marte {
+  margin-left: 10px;
+  width: 20%;
+}
+
+.jupiter {
+  width: 50%;
+}
+
+.saturno {
+  width: 48%;
+}
+
+.urano {
+  width: 35%;
+}
+
+.netuno {
+  margin-left: 10px;
+  width: 33%;
+}
+
+.planet-name {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.list-missions {
+  align-items: baseline;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.mission-card {
+  background-color: rgba(17, 17, 17, 0.616);
+  border: solid 1px white;
+  border-radius: 10px;
+  font-family: Arial , Helvetica , sans-serif;
+  height: 170px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.mission-card h3 {
+  border-bottom: solid 1px white;
+  margin: 0.001px;
+  padding: 8px;
+  text-align: center;
+}
+
+.mission-card ul {
+  font-size: 14pt;
+  list-style: none;
+  margin: 0.001px;
+  padding: 0.001px;
+  text-align: center;
+}
+
+.mission-card:nth-child( 1 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 2 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 3 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 4 ) ul {
+  margin-top: 3%;
+}
+
+.mission-card:nth-child( 4 ) h3 {
+  font-size: 13pt;
+}
+
+.mission-card:nth-child( 5 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 6 ) ul {
+  margin-top: 8%;
+}
+
+.mission-card:nth-child( 7 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 8 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 9 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 10 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 11 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 12 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 13 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 14 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 15 ) ul {
+  margin-top: 7%;
+}
+
+.mission-card:nth-child( 16 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 17 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 18 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 19 ) ul {
+  margin-top: 13%;
+}
+
+.mission-card:nth-child( 20 ) ul {
+  margin-top: 8%;
+}
+
+.mission-card ul li {
+  margin-top: 5px;
+}
