@@ -3,8 +3,8 @@
 }
 
 body {
-  background-image: url('./images/background.png');
-  color: white;
+  background-image: url('./images/fundogalaxiaespacial.jpg');
+  color: greenyellow;
 }
 
 header {
@@ -25,7 +25,7 @@ header h1 {
   background-color: rgba(17, 17, 17, 0.616);
   border: solid 1px white;
   border-radius: 10px;
-  color: white;
+  color: greenyellow;
   font-family: Arial , Helvetica , sans-serif;
   font-size: 25pt;
   font-weight: 400;
@@ -46,13 +46,14 @@ header h1 {
   display: inline-block;
 }
 
+
 .planet-card img {
   text-align: center;
   width: 100%;
 }
 
 .mercurio {
-  width: 5%;
+  width: 15%;
 }
 
 .venus {
@@ -71,20 +72,20 @@ header h1 {
 }
 
 .jupiter {
-  width: 50%;
+  width: 30%;
 }
 
 .saturno {
-  width: 48%;
+  width: 40%;
 }
 
 .urano {
-  width: 35%;
+  width: 30%;
 }
 
 .netuno {
   margin-left: 10px;
-  width: 33%;
+  width: 30%;
 }
 
 .planet-name {
@@ -110,6 +111,11 @@ header h1 {
   margin-bottom: 40px;
   margin-left: 10px;
   width: 200px;
+}
+
+.mission-card:hover {
+  border: 1px solid rgb(207, 91, 177);
+  border-radius: 8px;
 }
 
 .mission-card h3 {
